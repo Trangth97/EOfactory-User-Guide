@@ -1,0 +1,7 @@
+name: EOfactory.AI User’s Guide
+
+dependencies:
+  - sphinx==3.4.3
+  - pip:
+    - sphinx_rtd_theme==0.5.1
+
