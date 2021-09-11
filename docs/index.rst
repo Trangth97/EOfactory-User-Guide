@@ -7,11 +7,18 @@ Welcome to EUG's documentation!
 ===============================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 10
 
    source/aoi
+   source/imagery
    source/vector
+   source/map
    source/model
+   source/dataset
+   source/result
+   source/task
+   source/workflow
+   source/help
 
 
 .. Hello
