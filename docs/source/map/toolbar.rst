@@ -69,7 +69,7 @@ Click Capture button:
 Tools
 =====
 
-???
+:doc:`Tools <../imagery/toolbar-for-analysis>`
 
 Identify
 =========

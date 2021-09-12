@@ -1,10 +1,7 @@
-Imagery
--------
-
 Imagery where store and manage the images and the raster resuls. Also in Imagery, users can upload images, or download satellite images such as: Sentinel, Landsat or even add their own URL to download images. Besides storing and managing images, Imagery provides the toolkits to let users analyse the images.
 
 Add
-===
+---
 
 There are several ways to add images in Imagery: download satellite images such as Landsat, Sentinel, use Imagery Guru to search for images, or upload directly from PC. 
 
@@ -13,7 +10,7 @@ There are several ways to add images in Imagery: download satellite images such 
 
 (1): Open Image Source: Download image from free sources (Sentinel1, Sentinel2, Rolodex, Landsat-8, Bing, DEM)
 
-(2): Imagery Guru: 
+(2): Imagery Guru
 
 (3): Upload: Upload file from PC
 
@@ -32,26 +29,43 @@ Click Select A Basemap Source to select source:
 
 Step 1: Select date, orbit direction:
 
+- Date Range:
+
+  - Select From Date, To Date (From Date < To Date)
+  - Select Orbit Direction: Ascending, Descending
+- Seasonal Range:
+
+  - Select From Date, To Date (From Date < To Date)
+  - Select Years (can choose many)
+  - Select Orbit direction
+
 Choose one of two options above
 
-Step 2: Select AOI:
+Step 2: Select AOI
 
 There are four ways to select AOI:
+
+- Search location -> Draw AOI on map
 
 .. image:: ../img/image_source_sen1_1.png
     :align: center 
 
-Use Draw tool to draw AOI on map: Click ??? icon -> Select one of four tools by click or use shortcut:
+Use Draw tool to draw AOI on map: Click ?? icon -> Select one of four tools by click or use shortcut:
 
 .. image:: ../img/image_source_sen1_2.png
+    :align: center 
+
+- Select existed AOI in AOI Management: Click ??  icon -> Select one of list AOIs
 
 .. image:: ../img/image_source_sen1_3.png
+    :align: center 
 
-
+- Upload AOI from PC: Click ?? icon -> Upload file:
 
 .. image:: ../img/image_source_sen1_4.png
+    :align: center 
 
-
+- Select from created region boundary (similar create region of boundary in AOI)
 
 Step 3: Click Search button and select items
 
@@ -62,7 +76,7 @@ Default: each area chooses one item.
 
 Click the checkbox Select all images to select all images.
 
-Click ???  icon to show all items in that area
+Click ?? icon to show all items in that area
 
 .. image:: ../img/image_source_sen1_6.png
     :align: center 
@@ -198,7 +212,83 @@ Imagery Guru
 
 Download the commercial images
 
-?????
+Search
+******
+
+Allow users to search images on imagery guru.
+	
+Step 1: Select AOI
+
+You can search location then draw AOI or select exist AOI. Select date, adjust Cloud coverage, Resolution of images
+
+.. image:: ../img/imagery_guru/search_1.png
+    :align: center
+
+Step 2: Click “Search” button if step 1 is choose exist AOI
+
+.. image:: ../img/imagery_guru/search_2.png
+    :align: center
+
+=> Return list images.
+
+Beside, you can also store and manage search results:
+
+Click ?? icon to show the saved search result. Search Management allows you to save current search, load and delete search results in list. 
+
+Click ??  icon to clear selected items.
+
+.. image:: ../img/imagery_guru/search_3.png
+    :align: center
+.. image:: ../img/imagery_guru/search_4.png
+    :align: center
+
+Setting
+*******
+
+Allow users to set up an alert to receive an email when new imagery matches the parameters.
+
+Step 1: Click ??  icon
+
+.. image:: ../img/imagery_guru/setting_1.png
+    :align: center
+.. image:: ../img/imagery_guru/setting_2.png
+    :align: center
+
+Step 2: Define parameters:
+
+- Maximum acceptable resolution
+- How long should we search for imagery?
+- Define AOI
+
+Step 3: Click Submit button
+
+Submit a quote
+**************
+
+After you choose images, click “Get a quote” button:
+
+.. image:: ../img/imagery_guru/submit_quote_1.png
+    :align: center
+
+.. image:: ../img/imagery_guru/submit_quote_2.png
+    :align: center
+
+Next check images and type information -> Click Submit button.
+
+=> EO Factory representative will contact with you within 1 business day
+
+Order
+*****
+
+Allow users to manage your ordered images. Click Order button
+
+.. image:: ../img/imagery_guru/order_1.png
+    :align: center
+
+.. image:: ../img/imagery_guru/order_2.png
+    :align: center
+
+Wait for status is Order delivery, you can click ?? icon to download the image or click ??  icon to import to workspace.
 
 Upload
 ======

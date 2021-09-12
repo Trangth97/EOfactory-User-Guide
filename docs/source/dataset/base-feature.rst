@@ -12,7 +12,7 @@ Allow search datasets by name (1), model (2):
 Edit
 ====
 
-Click ??? icon or click right mouse -> click Edit button on each dataset. Then update input
+Click pen cil icon or click right mouse -> click Edit button on each dataset. Then update input
 
 .. image:: ../img/edit_dataset_1.png
     :align: center

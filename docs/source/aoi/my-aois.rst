@@ -12,9 +12,9 @@ Tab My AOIs show all the owner’s AOIs
 Created
 =======
 
-There are 4 ways to create new AOI: Draw on Map, Upload file, Drag and drop and Using the region boundary
+There are 4 ways to create new AOI:  :guilabel:`Draw on Map` ,  :guilabel:`Upload file` ,  :guilabel:`Drag and drop` and  :guilabel:`Using the region boundary`
 
-* Draw on map
+* **Draw on map**
 
 Step 1: Click icon below
 
@@ -61,7 +61,7 @@ Step 6: Click Submit button
     :width: 300
     :align: center 
 
-* Upload file: by browse or drag/drop file into map
+* **Upload file**: by browse or drag/drop file into map
 
 Step 1: Click icon Upload AOI
 
@@ -100,7 +100,7 @@ New AOI is created
 .. image:: ../img/upload_aoi_6.png
     :align: center 
 
-* Drag and drop file into map
+* **Drag and drop file into map**
 
 Step 1: Select file from PC
 
@@ -109,7 +109,7 @@ Step 2: Drag and drop into map
 .. image:: ../img/drag_aoi_1.png
     :align: center 
 
-* Create by region boundary
+* **Create by region boundary**
 
 Step 1: Select region boundary
 
