@@ -11,7 +11,7 @@ Mosaic Tool
 
 This tool allows the user to mosaic by manually choosing cutlines between images before mosaicing. 
 
-Click ??? icon on toolbar to start use tool:
+Click ?? icon on toolbar to start use tool:
 
 .. image:: ../img/mosaic_manual_tool.png
     :align: center 
