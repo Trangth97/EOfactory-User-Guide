@@ -1,7 +1,7 @@
 Toolbar for Analysis
 --------------------
 
-Basic toolkit: mosaic tool, reclass toolset and tools 
+Basic toolkit: :guilabel:`mosaic tool` , :guilabel:`reclass toolset` and :guilabel:`tools` 
 
 .. image:: ../img/toolbar_analysis.png
     :align: center 
@@ -39,13 +39,10 @@ Step 2: Type data:
 .. image:: ../img/prepare_mosaic/create_prepare_mosaic_3.png
     :align: center 
 
-Minimum Squared Difference: A cutline is determined in each overlapped area between two adjacent images, with minimum square difference of gray values at the same locations of the region. 
-	
-Minimum Difference: A cutline is determined in each overlapped area between two adjacent images, with minimum difference of gray values at the same locations of the region.
-
-Edge: Provides better output in urban-area mosaicking, or in images containing many linear features. The objective is to avoid placing cutlines across linear features.
-
-Maximum Data: Places cutlines on the boundary of the real image pixels, meaning that NoData pixels will be ignored when the image boundary is determined.
+- **Minimum Squared Difference**: A cutline is determined in each overlapped area between two adjacent images, with minimum square difference of gray values at the same locations of the region. 
+- **Minimum Difference**: A cutline is determined in each overlapped area between two adjacent images, with minimum difference of gray values at the same locations of the region.
+- **Edge**: Provides better output in urban-area mosaicking, or in images containing many linear features. The objective is to avoid placing cutlines across linear features.
+- **Maximum Data**: Places cutlines on the boundary of the real image pixels, meaning that NoData pixels will be ignored when the image boundary is determined.
 
 **Note**: Avoid placing cutlines on any of the following:
 
@@ -60,10 +57,10 @@ Maximum Data: Places cutlines on the boundary of the real image pixels, meaning 
 .. image:: ../img/prepare_mosaic/create_prepare_mosaic_4.png
     :align: center 
 
-    - Bundle: firstly, all overlapping image areas after removing anomalies in the data will compute the statistics. A bundle color adjustment (both the mean and sigma of the brightness and contrast) is applied to minimize the overall difference between all overlapping areas. Secondly, the remaining differences are modified with dodging.
- 	- Overlap: computes the color-balancing histogram using only the pixels in the overlapping area of the images being added to the mosaic file.
-	- Histogram: Builds histograms for each image starting from the center of the mosaic, determines the optimum radiometry for the input image from the data then applies the transformation to the entire image.
-	- Neighborhood: using all surrounding images to modify the gain and bias of the histogram, regardless of their z-order (based on sorting order) and works iteratively to modify neighboring pixels.
+- **Bundle**: firstly, all overlapping image areas after removing anomalies in the data will compute the statistics. A bundle color adjustment (both the mean and sigma of the brightness and contrast) is applied to minimize the overall difference between all overlapping areas. Secondly, the remaining differences are modified with dodging.
+- **Overlap**: computes the color-balancing histogram using only the pixels in the overlapping area of the images being added to the mosaic file.
+- **Histogram**: Builds histograms for each image starting from the center of the mosaic, determines the optimum radiometry for the input image from the data then applies the transformation to the entire image.
+- **Neighborhood**: using all surrounding images to modify the gain and bias of the histogram, regardless of their z-order (based on sorting order) and works iteratively to modify neighboring pixels.
 
 7. Click Generate button
 
@@ -398,8 +395,8 @@ The hillshade is calculated by using DEM image and the sun position
     - Combined: combined shading, a combination of slope and oblique shading
     - Multidirectional: multidirectional shading, a combination of hill shading illuminated from 225 deg, 270 deg, 315 deg, and 360 deg azimuth.
 
-.. image:: ../img/image_tools/hillshade_1.png
-.. image:: ../img/image_tools/hillshade_2.png
+.. image:: ../img/image_tools/hill_shade_1.png
+.. image:: ../img/image_tools/hill_shade_2.png
 
 Image Resampling
 ****************
